@@ -86,12 +86,23 @@ The onboarding form. A Client Component — manages form state, validation error
 
 ---
 
+## Prerequisites
+
+- **Node.js** v18 or higher — download from https://nodejs.org (choose LTS)
+- **Windows users only:** If `npm` is blocked by your execution policy, run this once in PowerShell as Administrator:
+  ```powershell
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  ```
+  Then reopen your terminal.
+
+---
+
 ## How to Run Locally
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/airtable-landing-page.git
-cd airtable-landing-page
+git clone https://github.com/Roee1997/landing-page-airtable.git
+cd landing-page-airtable
 ```
 
 **2. Install dependencies**
